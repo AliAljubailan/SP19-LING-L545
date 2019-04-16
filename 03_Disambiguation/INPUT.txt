@@ -1,0 +1,67 @@
+"<Однако>"
+    "однако" Adv Pos
+
+"<стиль>"
+    "стиль" N Inan Nom Masc Sing
+    "стиль" N Inan Acc Masc Sing
+
+"<работы>"
+    "работа" N Inan Gen Fem Sing
+    "работа" N Inan Nom Fem Plur
+    "работа" N Inan Acc Fem Plur
+
+"<Семена>"
+    "семен" PropN Anim Gen Masc Sing
+    "семен" PropN Anim Acc Masc Sing
+
+"<Еремеевича>"
+    "еремеевич" PropN Anim Gen Masc Sing
+
+"<заключался>"
+    "заключаться" V Imp Masc Ind Sing Past Fin Mid
+
+"<в>"
+    "в" Adp
+
+"<том>"
+    "то" Pron Inan Loc Neut Sing
+    "тот" DET Loc Neut Sing 
+    "тот" DET Loc Masc Sing 
+
+"<,>"
+    "," PUNCT
+
+"<чтобы>"
+    "чтобы" Sconj Cnd
+
+"<принимать>"
+    "принимать" V Imp Inf Act
+
+"<всех>"
+    "весь" DET Gen Plur
+    "весь" DET Loc Plur
+    "весь" DET Acc Plur
+    "все" Pron Anim Acc Plur
+    "все" Pron Anim Gen Plur
+"<желающих>"
+    "желать" V Imp Gen Plur Pres Part Act
+"<и>"
+    "и" Cconj
+    "и" Part
+
+"<лично>"
+    "лично" Adv Pos
+
+"<вникать>"
+    "*вникать"
+
+"<в>"
+    "в" Adp
+
+"<дело>"
+    "дело" N Inan Nom Neut Sing
+    "дело" N Inan Acc Neut Sing
+
+"<.>"
+    "." PUNCT
+

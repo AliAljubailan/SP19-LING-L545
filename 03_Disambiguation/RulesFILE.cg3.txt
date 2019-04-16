@@ -1,0 +1,56 @@
+DELIMITERS = "<.>" "<,>" "<.>" ;
+
+
+LIST DET = DET ;
+LIST NOUN = N ;
+LIST VERB = V ;
+LIST PLUR = Plur
+LIST PROPN = PropN ;
+LIST INAN  = Inan
+LIST ANIM  =  Anim ;
+LIST SCONJ = SCONJ ;
+LIST ADP = Adp ;
+LIST PART = Part ;
+LIST CCONJ = Cconj ;
+LIST ADV = Adv ;
+
+LIST NOM  = Nom ;
+LIST ACC = Acc ;
+LIST LOC = Loc ;
+LIST GEN = Gen ;
+
+
+LIST MASC  = Masc  ;
+LIST FEM = Fem ;
+
+LIST SING =  Sing;
+
+
+LIST PUNCT = PUNCT ;
+
+LIST ASPECT = Imp ;
+
+LIST MOOD = Ind ;
+
+LIST PRES =   Pres ;
+LIST PAST = Past ;
+LIST VerbForm =Fin ;
+LIST Degree = Pos
+
+LIST MID  = Mid ;
+LIST CCND = Cnd ;
+LIST ACT = Act ;
+
+
+
+
+
+SECTION
+
+REMOVE DET IF (1C PUNCT) ;
+
+REMOVE NOM IF (-1 ADP) ;
+
+REMOVE DET IF (-1 VERB) ;
+
+REMOVE PLUR IF (-1 SING) ;

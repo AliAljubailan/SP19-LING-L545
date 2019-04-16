@@ -1,0 +1,21 @@
+SEGMENTATION
+
+1- I think that segmenting sentences with semi-colon should depend on the context, due to the complex roles that semi-colon play and the several uses to which it is applied. For instance, semi-colon can be used break sentences into parts, e.g., "in recent years GNP growth have varied among countries (China 6%; US 3%; Japan 1%)", which cannot be counted as a single sentence. So, I think that might make our work more difficult and complicated as well. So, depending on the full stop to be the main segmenting sign could be safer.
+
+2- I would say that sentences with ellipsis can be better segmented as single sentences. However we can or we should develop our program or application to take care when finding a certain number of full stops immediately following each other, such as three full stops, which is very common with sentences with ellipsis.
+
+3- For my approach and trying to keep it safer and easier as possible, I would say no. I think that the first word should be counted into the first sentence. However, I should take into account that many sentences do not necessarily end with a full stop, but rather it ends with a question mark for instance. That need to be taken care of.
+
+4- As I said in the previous question, There are some other punctuations that can be dealt with as a sign of sentence end, such as exclamation. I also think that dealing with sentence segmentation is not easy and is very complicated just like dealing with language in general. The most important thing we should put in mind is meaning, I think, which is frequently tricky and is not accurately expressed by elements like punctuation. Segmenting a sentence within a context is just like segmenting an image into colors and other components. We need to keep them connected to preserve a reasonable standing meaning or message. That in my opinion is the hardest part.   
+
+
+
+TOKENIZATION
+
+1-	I think that we should split punctuation from the token it goes with because punctuations essentially are more related to sentence boundary and modification thus are not counted as alphabetic characters that can constitute a morpheme or a token in a natural human language. Rather, they can modify whether a sentence is declarative or interrogative, e.g., question mark and period. They can provide information about the tone for instance, such as exclamation mark. However, there are numerous tricky cases in certain languages in which a considerable number of tokens apply punctuations as a part a morpheme or two linked morphemes together, as in French “J’ai” (I have), which should be taken into consideration when dealing with such a system.
+
+2-	I think that abbreviations with space in them be written as a single token, for they usually indicate one certain entity. So, they probably should be dealt with as one token. Thus, I think that we should train regular expressions in our applications and programs to be aware when dealing with this pattern of abbreviations. This includes numbers that are interpreted as one entity, such as 134 000 or 124 463 29 etc. Dealing with them as separated by space may result in misleading interpretation and thus wrong output. I think that regular expressions can help much with such cases.
+
+3-	Well, I would say that case markers should also be separated from the tokens they apply to. Case marker suffixes are morphological features that are not in most cases derived from the stems. The punctuations that either probably intervene or follow case suffixes should also be removed unless they count as a part of the morpheme in this system or that. In sum, I think that stems are better tokenized separately.     
+
+4-	In my opinion, contractions and clitics be a single token or two or more tokens, simply for they stand for other entities, or tokens, that do not relate to the stem or stems to which they are affixed. I also think that it is easier, and probably more efficient, to follow this approach with clitics and contractions this way in NLP applications. That might also help reduce the ambiguity of coreferences and anaphora as well. 

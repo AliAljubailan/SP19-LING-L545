@@ -1,0 +1,5 @@
+I applied this command line to grep initial consonant word the delete the vowels then count. The result from my file was 138 tokens.
+
+ grep -v [^a-zA-Z] wiki.txt |sed 's/[aeiouAEIOU]//g' | wc -w
+     138
+

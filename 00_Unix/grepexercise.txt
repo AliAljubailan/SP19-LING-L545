@@ -1,0 +1,22 @@
+in my file of Maltese, i applied the command grep '^....$' words wiki.txt | wc -w
+
+to count 4 letter words in the file. it returned 119
+==================
+
+Looking for words with no vowels, besides numbers grep only returned this gloss from my file:
+
+PBS.
+
+I only looked fro Latin script vowels due to the variety of scripts in my file
+============
+
+Those were the only capital letter words in my file:
+PBS.
+
+
+
+KOTBA
+ARTIKOLI
+
+I used the command line: grep -v '[a-z]' wiki.txt , for getting this result
+===============

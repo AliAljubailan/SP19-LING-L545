@@ -1,0 +1,14 @@
+Alis-MacBook-Air:WikiExtractor alialjubailan$ sed 's/ /\'$'\n/g'< wiki.txt |sort -r | sed 10q
+Հանրապետություն,
+Հանրապետություն),
+اَلأُرْدُنِيَّة
+اَلهَاشِمِيَّة
+репрезентација
+Станисла́вовна
+Виссарионович
+Александрович
+القَذَّافِي‎,
+Республикаси")
+
+#######
+what caugiht my attention while dealing with Maltese is that the file noticeably contains various alphabetic systems. #####

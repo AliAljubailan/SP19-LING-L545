@@ -1,0 +1,14 @@
+The most frequent 10 bigrams were all in latin script, which is quiet interesting!
+
+sort -nr < wiki.bigrams | sed 10q
+2426 li	kien
+1147 li	kienu
+1125 wara	li
+1043 kif	ukoll
+ 826 li	kienet
+ 824 kien	hemm
+ 725 li	ma
+ 695 waqt	li
+ 615 u	li
+ 589 li	huma
+
